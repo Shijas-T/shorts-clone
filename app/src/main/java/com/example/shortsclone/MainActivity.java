@@ -98,7 +98,9 @@ public class MainActivity extends AppCompatActivity {
 
                         arrayListShorts.add(new ShortsModel(
                                 info.getJSONObject("submission").getString("mediaUrl"),
-                                info.getJSONObject("submission").getString("thumbnail")
+                                info.getJSONObject("submission").getString("thumbnail"),
+                                info.getJSONObject("submission").getString("title"),
+                                info.getJSONObject("submission").getString("description")
                         ));
                     }
                     if(response.length()>0){

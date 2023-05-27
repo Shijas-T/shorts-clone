@@ -1,6 +1,7 @@
 package com.example.shortsclone;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,13 +46,10 @@ public class ShortsAdapter extends RecyclerView.Adapter<ShortsAdapter.ViewHolder
         holder.imageViewThumbnail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent = new Intent(context, ShowDetailActivity.class);
-//                intent.putExtra("show_id",arrayListAllShow.get(position).getShowId());
-//                intent.putExtra("show_language",arrayListAllShow.get(position).getShowLanguage());
-//                intent.putExtra("show_premiered",arrayListAllShow.get(position).getShowPremiered());
-//                intent.putExtra("show_summary",arrayListAllShow.get(position).getShowSummary());
-//                intent.putExtra("show_img_url",arrayListAllShow.get(position).getShowImageUrl());
-//                context.startActivity(intent);
+                Intent intent = new Intent(context, PlayShortsActivity.class);
+                intent.putExtra("shorts", arrayListShorts);
+                intent.putExtra("position", position);
+                context.startActivity(intent);
             }
         });
     }

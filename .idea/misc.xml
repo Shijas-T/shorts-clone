@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/tmoha/AndroidStudioProjects/ShortsClone/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tmoha/AndroidStudioProjects/ShortsClone/app/src/main/res/layout/activity_play_shorts.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/tmoha/AndroidStudioProjects/ShortsClone/app/src/main/res/layout/single_thumbnail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tmoha/AndroidStudioProjects/ShortsClone/app/src/main/res/layout/single_video.xml" value="0.253125" />
       </map>
     </option>
   </component>

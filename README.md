@@ -10,10 +10,5 @@ This documentation provides an overview of your Android app, which is a clone of
 - **Vertical Swipe Navigation:** The app incorporates a ViewPager that enables users to swipe vertically to navigate through the video content. This feature mimics the behavior of popular short-video platforms, allowing users to effortlessly browse videos in a familiar manner.
 - **Clean and Understandable Code:** The codebase is structured and organized to enhance readability and maintainability. It follows best practices and design patterns to ensure that future modifications or feature additions can be easily implemented.
 
-## Installation
-To install and run the app:
-1. Install the APK file.
-   - APK Download Link: [shorts_clone.apk](https://1drv.ms/u/s!Aqk1-wEZIlb2jAMkbLBl6NjCCGKl?e=SiWeXP)
-
 ## Conclusion
 This Android app, built using Java and incorporating libraries such as Volley and Picasso, provides a seamless and engaging short-video browsing experience. It mimics the functionality and user interface of popular platforms like TikTok, Instagram Reels, or YouTube Shorts. The integration of the modified VideoView and ViewPager allows users to navigate through the video content easily. The use of clean and understandable code ensures maintainability and scalability for future updates or feature additions.
